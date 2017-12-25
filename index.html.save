@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+	color: #7f0000
+}
+h2 {
+	padding-left: 10pt;  	
+}
+h3 {
+        padding-left: 10pt;
+}
+
+padOver {
+	padding-left: 10pt;
+}
+body {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #7f0000;
+	background-color: #ffffcc
+}
+</style>
+<center>
+<title>Joseph E. Cenci CS Page</title>
+<h1 style="text-decoration:underline;">Joseph E. Cenci Class of 2019: Lafayette College</h1>
+<body>
+<p> Email: cencije@lafayette.edu</p>
+<p>I am currently pursuing a <u><b>B.S. in Computer Science</b></u> at <a href="https://www.lafayette.edu/"><font color="blue">Lafayette College</a></font>. I am very outgoing and work well with others in and out of the workplace environment. Dedicated to producing the best work possible in anything I do. I am still a student at Lafayette College but I am looking for a job, internship, or externship that will allow me to utilize what I have learned to the best of my ability and discover other skills I can work on. I am open to essentially all sectors of the computer science field and have no preference when it comes to work specifics (software, security, etc).</p>
+</center>
+<pre> <a href= "https://www.linkedin.com/in/joseph-cenci-02a1ab133/"><font color="blue">LinkedIn Profile</a> </font> </pre>
+<hr />
+<h2 class ="indented">Projects</h2>
+<padOver>   Basic Java DFA Program: The idea for this project was prompted after learning about Determinant Finite Automata in my CS303: Theory of Computation class.</padOver><br>
+<padOver>   I challenged myself to create a basic Java program within 1 hour that would take as input a binary string and run it through a DFA that the user models.</padOver><br>
+<padOver>   Resulting Project: </padOver>
+<hr />
+<details>
+<summary style="font-size: 14pt; padding-left: 10pt;"> Work Experience </summary>
+<padOver><u><b> Polimeni Medical Information Technologies (PMIT)</b></u>: Internship June 2016 - August 2016 (3 Months) </padOver><br>
+<padOver> Worked on the Database end of an application. Utilized Scala and the Play Framework.</padOver><br>
+<padOver> Helped out the lead programmer of the database end and sat in on some calls.</padOver><br>
+</details>
+<hr />
+
+
+<embed code=”RobotPizza.class”
+type=”application/x-java-applet;version=1.6″>
+</embed>
+<details>
+<summary style="font-size: 14pt; padding-left: 10pt;"> Courses Taken </summary>
+		<padOver><u><b>Computer Science 104</b></u>: Computer Gaming</padOver><br>
+		<padOver><u><b>Computer Science 150</b></u>: Data Structures & Algorithms 150</padOver><br>
+		<padOver><u><b>Computer Science 202</b></u>: Analysis of Algorithms</padOver><br>
+		<padOver><u><b>Computer Science 203</b></u>: Computer Organization</padOver><br>
+		<padOver><u><b>Math 161</b></u>: Calculus I</padOver><br>
+		<padOver><u><b>Math 162</b></u>: Calculus II</padOver><br>
+		<padOver><u><b>Math 263</b></u>: Calculus III 263</padOver><br>
+		<padOver><u><b>Math 182</b></u>: Discrete Structures</padOver><br>
+		<padOver><u><b>Philosophy 200</b></u>: Logic </padOver><br>
+		<padOver><u><b>English 135</b></u>: Literature & Human Experience </padOver><br>
+		<padOver><u><b>History 119</b></u>: Race/Ethnicity</padOver><br>
+		<padOver><u><b>First Year Seminar 107</b></u>: Innovation of Warfare</padOver><br>
+</details>
+
+<hr />
+
+<details>
+	<summary style="font-size: 14pt; padding-left: 10pt;"> Courses Currently Taking </summary>
+		<padOver><u><b>Math 272</b></u>: Linear Algebra</padOver><br>
+		<padOver><u><b>Computer Science 200</b></u>: Computers & Society</padOver><br>
+		<padOver><u><b>Computer Science 205</b></u>: Software Engineering</padOver><br>
+		<padOver><u><b>Computer Science 303</b></u>: Theory of Computation</padOver><br>
+</details>
+<hr />
+<details>
+	<summary style="font-size: 14pt; padding-left: 10pt;"> Copyright 2017 Joseph E. Cenci</summary>
+		<padOver>Updated as of February 2017</padOver><br>
+		<padOver>Created in HTML </padOver><br>
+		</style>
+</details>
