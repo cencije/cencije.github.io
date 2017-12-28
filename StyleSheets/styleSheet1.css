@@ -36,9 +36,17 @@ body {
         border-color: #7f0000;
         background-color: #dbfffd;
 }
-.project2 {
+.snProject {
     border-top: ridge  #7f0000;
     background-color: #cdffa8;
+}
+.snPhoto {
+    padding: 1px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #7f0000;
+    width: 300px;
+    height: 600px;
 }
 .dfaProject {
     border-top: ridge  #7f0000;
