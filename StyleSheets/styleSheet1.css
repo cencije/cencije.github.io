@@ -2,6 +2,8 @@ h1 {
     color: #ffe400;
     font-size: 4vw;
     font-family: Trebuchet MS;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
 }
 h2 {
     background-color: #B0E0E6;
@@ -21,7 +23,7 @@ padOver {
 }
 
 p {
-    color: white;
+    color: black;
     padding: 2pt;
 }
 link {
@@ -54,10 +56,14 @@ body {
     width: 300px;
     height: 600px;
 }
+.dfaProjectHead {
+    background-color: #14a796; 
+    font-size: 14pt; 
+    padding-left: 10pt;
+}
 .dfaProject {
     border-top: ridge  #7f0000;
-    background-color: #14a796; 
-    
+    background-color: #deedeb; 
 }
 .dfaPhoto {
     padding: 1px;
@@ -119,5 +125,17 @@ ul {
 
 @media (max-width: 480px) {
     .short-text {display:inline}
-    .full-text { display: none; }
+    .full-text { display: none; } 
+}
+@media (max-width: 661px) {
+    .clearfix { display: grid; padding: 0pt;}
+    #logo { 
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #logoText {
+        padding: 5pt;
+        text-align: center;
+    }
 }

@@ -27,47 +27,36 @@
                 <li><a href="https://www.facebook.com/joe.cenci">Facebook</a></li>
                 <li><a href="https://medium.com/@cencije">Medium (Blog)</a></li>
             </ul>
-        <h1>Projects</h1>
-    </center>
+            <h1>Projects</h1>
+        </center>
     
-<details class="dfaProject">
-	<summary style="font-size: 14pt; padding-left: 10pt;">Java DFA Program </summary>
-<p style="padding-left: 10pt;" ><b> Java DFA Program</b>: The idea for this project was prompted after learning about Determinant Finite Automata in my CS303: Theory of Computation class.
-I challenged myself to create a Java program within 2 hours that would take as input a binary string and run it through a DFA that the user models.</p>
-<padOver>Git Hub Source Code: <a href="https://github.com/cencije/DFAMachine"><font color="blue">DFAMachine</font></a></padOver>
-<center>
-    <img alt="InitialGUI" src="Pictures/DFAPics/InitialGUI.png" class="dfaPhoto"/>
-    <br>
-</center>
-    <p style="padding: 10pt;">This is the initial view of the GUI for the DFA Machine. Upon running the program: The user should enter in the desired binary string they wish to test on the DFA. This string can be any sequence of 0’s and 1’s. The user should enter in the next text field the number of the state that symbolizes the string that is accepted by the DFA. Once these two fields have been set, the user can begin to enter in the destinations for all of the states in the DFA. The first text field accepts a digit value of the state reached with a 0 input and the second text field sets the state reached for a 1 input. If the user wishes to have the input result in a kill state, thus terminating the thread, he or she can enter in a number less than 0. The DFA machine will not be able to run until the number of states entered is greater than or equal to the highest destination state in the DFA state list. It will also refrain from running if the desired end state is not contained within the DFA. The user can run through a created DFA as many times as needed and can change the binary string input and desired state following creation of the DFA. The “Check Valid” button will enable the “Add State” and “Run DFA” button only if both options are possible. It will also only allow the DFA to run if the string input contains only 0’s and 1’s. </p>
-<br>
-<center>
-<img alt="InputGUI" src="Pictures/DFAPics/EnteringInputGUI.png" class="dfaPhoto"/>
-<br>
-<padOver>Creating states in the GUI.</padOver>
-<br>
-<br>
-<img alt="SuccessGUI" src="Pictures/DFAPics/SuccessGUI.png" class="dfaPhoto"/>
-<br>
-
-<padOver>A successful binary string input.</padOver>
-<br>
-<br>
-
-<img alt="FailureGUI" src="Pictures/DFAPics/FailGUI.png" class="dfaPhoto"/>
-<br>
-<padOver>A failed binary string input.</padOver>
-<br>
-<br>
-</center>
+        <details class="dfaProject">
+            <summary class="dfaProjectHead">Java DFA Program | Git Hub Source Code: <a href="https://github.com/cencije/DFAMachine"><font color="blue">DFAMachine</font></a> </summary>
+            <p style="padding-left: 10pt;" ><b> Java DFA Program</b>: The idea for this project was prompted after learning about Determinant Finite Automata in my CS303: Theory of Computation class.
+            I challenged myself to create a Java program within 2 hours that would take as input a binary string and run it through a DFA that the user models.</p>
+            <center>
+                <img alt="InitialGUI" src="Pictures/DFAPics/InitialGUI.png" class="dfaPhoto"/>
+                <br>
+            </center>
+            <p style="padding: 10pt;">This is the initial view of the GUI for the DFA Machine. Upon running the program: The user should enter in the desired binary string they wish to test on the DFA. This string can be any sequence of 0’s and 1’s. The user should enter in the next text field the number of the state that symbolizes the string that is accepted by the DFA. Once these two fields have been set, the user can begin to enter in the destinations for all of the states in the DFA. The first text field accepts a digit value of the state reached with a 0 input and the second text field sets the state reached for a 1 input. If the user wishes to have the input result in a kill state, thus terminating the thread, he or she can enter in a number less than 0. The DFA machine will not be able to run until the number of states entered is greater than or equal to the highest destination state in the DFA state list. It will also refrain from running if the desired end state is not contained within the DFA. The user can run through a created DFA as many times as needed and can change the binary string input and desired state following creation of the DFA. The “Check Valid” button will enable the “Add State” and “Run DFA” button only if both options are possible. It will also only allow the DFA to run if the string input contains only 0’s and 1’s. </p>
+            <br>
+            <img alt="DFAExample" src="Pictures/DFAPics/DFA_Example.png" class="dfaExample"/>
+            <center>
+                <img alt="InputGUI" src="Pictures/DFAPics/EnteringInputGUI.png" class="dfaPhoto"/>
+                <p>Creating states in the GUI.</p>
+                <img alt="SuccessGUI" src="Pictures/DFAPics/SuccessGUI.png" class="dfaPhoto"/>
+                <p>A successful binary string input.</p>
+                <img alt="FailureGUI" src="Pictures/DFAPics/FailGUI.png" class="dfaPhoto"/>
+                <p>A failed binary string input.</p>
+                <br>
+            </center>
         </details>
-<details class="snProject">
-    <summary style="font-size: 14pt; padding-left: 10pt;">Social Network Simulator</summary>
-    <p style="padding-left: 10pt;" ><b>Social Network Simulator</b>: The idea for this project was to utilize Java Graphics to illustrate correlations in data and then have data easily visualized in a line graph as well as a table view. I wanted to familiarize myself with the JFrame components while fulfilling the goal of effectively visualizing data. This program mimics a sample size of users of a social network interacting and seeing a correlation between logins and activity on the social network site.</p>
-    <padOver>Git Hub Source Code: <a href="https://github.com/cencije/SN_Like_Simulator"><font color="blue">SN_Like_Simulator</font></a></padOver>
-    <center>
-        <img alt="InitialGUI_SN" src = "Pictures/SN_SimulatorPics/InitialGUI_SN.png" class="snPhoto"/>
-    </center>
-    </details>
+        <details class="snProject">
+            <summary style="font-size: 14pt; padding-left: 10pt;">Social Network Simulator | Git Hub Source Code: <a href="https://github.com/cencije/SN_Like_Simulator"><font color="blue">SN_Like_Simulator</font></a></summary>
+            <p style="padding-left: 10pt;" ><b>Social Network Simulator</b>: The idea for this project was to utilize Java Graphics to illustrate  correlations in data and then have data easily visualized in a line graph as well as a table view. I wanted to familiarize myself with the JFrame components while fulfilling the goal of effectively visualizing data. This program mimics a sample size of users of a social network interacting and seeing a correlation between logins and activity on the social network site.</p>
+            <center>
+                <img alt="InitialGUI_SN" src = "Pictures/SN_SimulatorPics/InitialGUI_SN.png" class="snPhoto"/>
+            </center>
+        </details>
     </body>
 </html>
