@@ -1,6 +1,6 @@
 h1 {    
     color: #ffe400;
-    font-size: 3vw;
+    font-size: 4vw;
     font-family: Trebuchet MS;
 }
 h2 {
@@ -16,7 +16,7 @@ h3 {
 }
 
 padOver {
-    padding: 5pt;
+    padding: 10pt;
     color: white;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 .dfaProject {
     border-top: ridge  #7f0000;
-    background-color: #fcffbc; 
+    background-color: #14a796; 
     
 }
 .dfaPhoto {
@@ -64,8 +64,10 @@ body {
     border-style: ridge;
     border-width: 5px;
     border-color: #7f0000;
-    width: 650px;
-    height: 190px;
+    max-width: 650px;
+    max-height: 190px;
+    width: 90%;
+    height: auto;
 }
 li {
     display: inline-block;
@@ -101,4 +103,14 @@ ul {
 .imgL {
     float: left;
     padding: 5pt;
+}
+
+.background-Photo {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+.responsive {
+    width: 100%;
+    height: auto;
 }
