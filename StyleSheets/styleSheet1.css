@@ -1,23 +1,28 @@
 h1 {    
-    color: #7f0000;
-    text-decoration: underline
+    color: #ffe400;
+    font-family: Trebuchet MS;
 }
 h2 {
-        background-color: #B0E0E6;
-        border-top: thick double #7f0000;
-        border-bottom: thick double #7f0000;
-        font-size: 250%;
-        font-family: helvetica;
+    background-color: #B0E0E6;
+    border-top: thick double #7f0000;
+    border-bottom: thick double #7f0000;
+    font-size: 250%;
+    font-family: helvetica;
 
 }
 h3 {
-        padding-left: 10pt;
+    padding-left: 10pt;
 }
 
 padOver {
-        padding: 10pt;
+    padding: 5pt;
+    color: white;
 }
 
+p {
+    color: white;
+    padding: 2pt;
+}
 link {
         font color ="blue";
 }
@@ -31,10 +36,10 @@ link {
     height: 300px;
 }
 body {
-        border-style: ridge;
-        border-width: 8px;
-        border-color: #7f0000;
-        background-color: #dbfffd;
+    border-style: ridge;
+    border-width: 8px;
+    border-color: #7f0000;
+    background-color: #272727;
 }
 .snProject {
     border-top: ridge  #7f0000;
@@ -87,4 +92,12 @@ ul {
     padding: 2px;
     overflow: hidden;
     background-color: #fcffbc;
+}
+
+.clearfix {
+    overflow: auto;
+}
+.imgL {
+    float: left;
+    padding: 5pt;
 }
