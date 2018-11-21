@@ -1,5 +1,6 @@
 h1 {    
     color: #ffe400;
+    font-size: 3vw;
     font-family: Trebuchet MS;
 }
 h2 {
@@ -24,7 +25,7 @@ p {
     padding: 2pt;
 }
 link {
-        font color ="blue";
+    color: yellow;
 }
 
 .selfPhoto {
@@ -32,8 +33,8 @@ link {
     border-style: ridge;
     border-width: 5px;
     border-color: #7f0000;
-    width: 250px;
-    height: 300px;
+    width: 252px;
+    height: 336px;
 }
 body {
     border-style: ridge;
