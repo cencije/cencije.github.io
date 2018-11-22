@@ -23,6 +23,7 @@ padOver {
 }
 
 p {
+    margin: 0 auto;
     color: black;
     padding: 2pt;
 }
@@ -65,6 +66,12 @@ body {
     border-top: ridge  #7f0000;
     background-color: #deedeb; 
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    
+}
 .dfaPhoto {
     padding: 1px;
     border-style: ridge;
@@ -74,6 +81,17 @@ body {
     max-height: 190px;
     width: 90%;
     height: auto;
+}
+.dfaItem {
+    padding: 0pt;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.dfaExample {
+    padding-top : 20pt;
+    max-width: 600px;
+    max-height: 600px;
+    width: 90%;
 }
 li {
     display: inline-block;
@@ -103,6 +121,9 @@ ul {
     background-color: #fcffbc;
 }
 
+.noPad {
+    padding: 0pt;
+}
 .clearfix {
     overflow: auto;
 }
@@ -138,4 +159,17 @@ ul {
         padding: 5pt;
         text-align: center;
     }
+    
+}
+@media (max-width: 710px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+    .dfaExample {
+        max-width: 500px;
+        max-height: 500px;
+    }
+    
+}
+    
 }
