@@ -4,6 +4,7 @@
         <link rel="styleSheet" href="StyleSheets/styleSheet1.css">  
         <link rel="shortcut icon" href="Pictures/faviconPage.ico" />
         <title>Joseph E. Cenci CS</title>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     </head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <body>
@@ -41,89 +42,97 @@
         <hr>
         <center>
             <h1>Courses Taken</h1>
-        </center>		
-        <padOver class="full-text"><u><b>Computer Science 104</b></u>: Computer Gaming</padOver>
-        <padOver class="short-text"><u><b>CS 104</b></u>: Computer Gaming</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Computer Science 150</b></u>: Data Structures &amps; Algorithms</padOver>
-        <padOver class="short-text"><u><b>CS 150</b></u>: Data Structures &amps; Algorithms</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Computer Science 200</b></u>: Computers &amps; Society</padOver>
-        <padOver class="short-text"><u><b>CS 200</b></u>: Computers &amps; Society</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Computer Science 202</b></u>: Analysis of Algorithms</padOver>
-        <padOver class="short-text"><u><b>CS 202</b></u>: Analysis of Algorithms</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Computer Science 203</b></u>: Computer Organization</padOver>
-        <padOver class="short-text"><u><b>CS 203</b></u>: Computer Organization</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Computer Science 205</b></u>: Software Engineering</padOver>
-        <padOver class="short-text"><u><b>CS 205</b></u>: Software Engineering</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Computer Science 301</b></u>: Principles of Programming</padOver>
-        <padOver class="short-text"><u><b>CS 301</b></u>: Principles of Programming</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Computer Science 303</b></u>: Theory of Computation</padOver>
-        <padOver class="short-text"><u><b>CS 303</b></u>: Theory of Computation</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Computer Science 320</b></u>: Database Management Systems</padOver>
-        <padOver class="short-text"><u><b>CS 320</b></u>: DB Management Systems</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Computer Science 406</b></u>: Operating Systems</padOver>
-        <padOver class="short-text"><u><b>CS 406</b></u>: Operating Systems</padOver>
-        <br>
-        <!--<padOver><u><b>Computer Science 417</b></u>: Data Mining<br></padOver>
-        <br>
-        <padOver><u><b>Computer Science 420</b></u>: Artificial Intelligence<br></padOver>
-        <padOver><u><b>Computer Science 496</b></u>: Senior Project<br></padOver>-->
-        <padOver class="full-text"><u><b>Math 182</b></u>: Discrete Structures</padOver>
-        <padOver class="short-text"><u><b>MATH 182</b></u>: Discrete Structures</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Math 186</b></u>: Applied Statistics</padOver>
-        <padOver class="short-text"><u><b>MATH 186</b></u>: Applied Statistics</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Math 272</b></u>: Linear Algebra</padOver>
-        <padOver class="short-text"><u><b>MATH 272</b></u>: Linear Algebra</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Math 161</b></u>: Calculus I</padOver>
-        <padOver class="short-text"><u><b>MATH 161</b></u>: Calculus I</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Math 162</b></u>: Calculus II</padOver>
-        <padOver class="short-text"><u><b>MATH 162</b></u>: Calculus II</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Math 263</b></u>: Calculus III</padOver>
-        <padOver class="short-text"><u><b>MATH 263</b></u>: Calculus III</padOver>
-        <br>
-        <!--<padOver><u><b>Philosophy 102</b></u>: Basic Social Questions</padOver>-->
-        <padOver class="full-text"><u><b>Philosophy 200</b></u>: Logic</padOver>
-        <padOver class="short-text"><u><b>PHIL 200</b></u>: Logic</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Physics 104</b></u>: Astronomy: The Solar System</padOver>
-        <padOver class="short-text"><u><b>PHYS 104</b></u>: Astronomy</padOver>
-        <br>
-        <padOver class="full-text"><u><b>African Studies 101</b></u>: Ideas of Africa</padOver>
-        <padOver class="short-text"><u><b>AFS 101</b></u>: Ideas of Africa</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Anthropology &amp; Sociology 103</b></u>: Introduction to Sociology</padOver>
-        <padOver class="short-text"><u><b>A&amp;S 103</b></u>: Intro to Sociology</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Biology 101</b></u>: General Biology I</padOver>
-        <padOver class="short-text"><u><b>BIOL 101</b></u>: General Biology I</padOver>
-        <br>
-        <padOver class="full-text"><u><b>Biology 102</b></u>: General Biology II</padOver>
-        <padOver class="short-text"><u><b>BIOL 102</b></u>: General Biology II</padOver>
-        <br>
-        <!--<padOver><u><b>Engineering Studies 271</b></u>: Introduction to Architectural Engineering</padOver>-->
-        <padOver class="full-text"><u><b>English 135</b></u>: Literature &amp; Human Experience</padOver>
-        <padOver class="short-text"><u><b>ENG 135</b></u>: Literature &amp; Human Exp</padOver>
-        <br>
-        <!--<padOver><u><b>English 250</b></u>: Writing Genres</padOver>-->
-        <padOver class="full-text"><u><b>History 119</b></u>: Race/Ethnicity</padOver>
-        <padOver class="short-text"><u><b>HIST 119</b></u>: Race/Ethnicity</padOver>
-        <br>
-        <!--<padOver><u><b>Theatre 107</b></u>: Introduction to Theatre</padOver>-->
-        <padOver class="full-text"><u><b>First Year Seminar 107</b></u>: Innovation of Warfare</padOver>
-        <padOver class="short-text"><u><b>FYS 107</b></u>: Innovation of Warfare</padOver>
-        <br>
+        </center>
+        <div class="grid-container">
+            <div>
+                <padOver class="full-text"><u><b>Computer Science 104</b></u>: Computer Gaming</padOver>
+                <padOver class="short-text"><u><b>CS 104</b></u>: Computer Gaming</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Computer Science 150</b></u>: Data Structures &amp; Algorithms</padOver>
+                <padOver class="short-text"><u><b>CS 150</b></u>: Data Structures &amp; Algorithms</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Computer Science 200</b></u>: Computers &amp; Society</padOver>
+                <padOver class="short-text"><u><b>CS 200</b></u>: Computers &amp; Society</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Computer Science 202</b></u>: Analysis of Algorithms</padOver>
+                <padOver class="short-text"><u><b>CS 202</b></u>: Analysis of Algorithms</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Computer Science 203</b></u>: Computer Organization</padOver>
+                <padOver class="short-text"><u><b>CS 203</b></u>: Computer Organization</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Computer Science 205</b></u>: Software Engineering</padOver>
+                <padOver class="short-text"><u><b>CS 205</b></u>: Software Engineering</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Computer Science 301</b></u>: Principles of Programming</padOver>
+                <padOver class="short-text"><u><b>CS 301</b></u>: Principles of Programming</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Computer Science 303</b></u>: Theory of Computation</padOver>
+                <padOver class="short-text"><u><b>CS 303</b></u>: Theory of Computation</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Computer Science 320</b></u>: Database Management Systems</padOver>
+                <padOver class="short-text"><u><b>CS 320</b></u>: DB Management Systems</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Computer Science 406</b></u>: Operating Systems</padOver>
+                <padOver class="short-text"><u><b>CS 406</b></u>: Operating Systems</padOver>
+                <br>
+                <!--<padOver><u><b>Computer Science 417</b></u>: Data Mining<br></padOver>
+                <br>
+                <padOver><u><b>Computer Science 420</b></u>: Artificial Intelligence<br></padOver>
+                <padOver><u><b>Computer Science 496</b></u>: Senior Project<br></padOver>-->
+                <padOver class="full-text"><u><b>Math 182</b></u>: Discrete Structures</padOver>
+                <padOver class="short-text"><u><b>MATH 182</b></u>: Discrete Structures</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Math 186</b></u>: Applied Statistics</padOver>
+                <padOver class="short-text"><u><b>MATH 186</b></u>: Applied Statistics</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Math 272</b></u>: Linear Algebra</padOver>
+                <padOver class="short-text"><u><b>MATH 272</b></u>: Linear Algebra</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Math 161</b></u>: Calculus I</padOver>
+                <padOver class="short-text"><u><b>MATH 161</b></u>: Calculus I</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Math 162</b></u>: Calculus II</padOver>
+                <padOver class="short-text"><u><b>MATH 162</b></u>: Calculus II</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Math 263</b></u>: Calculus III</padOver>
+                <padOver class="short-text"><u><b>MATH 263</b></u>: Calculus III</padOver>
+                <br>
+                <!--<padOver><u><b>Philosophy 102</b></u>: Basic Social Questions</padOver>-->
+                <padOver class="full-text"><u><b>Philosophy 200</b></u>: Logic</padOver>
+                <padOver class="short-text"><u><b>PHIL 200</b></u>: Logic</padOver>
+                <br>
+                <!--<padOver class="full-text"><u><b>Physics 104</b></u>: Astronomy: The Solar System</padOver>
+                <padOver class="short-text"><u><b>PHYS 104</b></u>: Astronomy</padOver>
+                <br>-->
+                <padOver class="full-text"><u><b>African Studies 101</b></u>: Ideas of Africa</padOver>
+                <padOver class="short-text"><u><b>AFS 101</b></u>: Ideas of Africa</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Anthropology &amp; Sociology 103</b></u>: Introduction to Sociology</padOver>
+                <padOver class="short-text"><u><b>A&amp;S 103</b></u>: Intro to Sociology</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Biology 101</b></u>: General Biology I</padOver>
+                <padOver class="short-text"><u><b>BIOL 101</b></u>: General Biology I</padOver>
+                <br>
+                <padOver class="full-text"><u><b>Biology 102</b></u>: General Biology II</padOver>
+                <padOver class="short-text"><u><b>BIOL 102</b></u>: General Biology II</padOver>
+                <br>
+                <!--<padOver><u><b>Engineering Studies 271</b></u>: Introduction to Architectural Engineering</padOver>-->
+                <padOver class="full-text"><u><b>English 135</b></u>: Literature &amp; Human Experience</padOver>
+                <padOver class="short-text"><u><b>ENG 135</b></u>: Literature &amp; Human Exp</padOver>
+                <br>
+                <!--<padOver><u><b>English 250</b></u>: Writing Genres</padOver>-->
+                <padOver class="full-text"><u><b>History 119</b></u>: Race/Ethnicity</padOver>
+                <padOver class="short-text"><u><b>HIST 119</b></u>: Race/Ethnicity</padOver>
+                <br>
+                <!--<padOver><u><b>Theatre 107</b></u>: Introduction to Theatre</padOver>-->
+                <padOver class="full-text"><u><b>First Year Seminar 107</b></u>: Innovation of Warfare</padOver>
+                <padOver class="short-text"><u><b>FYS 107</b></u>: Innovation of Warfare</padOver>
+            </div>  
+            <div>
+                <br>
+                <script src="classesGraph.js"></script>
+                <div id="chartContainer" class="classGraph"></div>
+            </div>
+        </div>
     </body>
 </html>
