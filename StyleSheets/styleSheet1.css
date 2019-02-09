@@ -158,7 +158,7 @@ ul {
     .short-text {display:inline}
     .full-text { display: none; } 
 }
-@media (max-width: 661px) {
+@media (max-width: 783px) {
     .clearfix { display: grid; padding: 0pt;}
     #logo { 
         margin-left: auto;
