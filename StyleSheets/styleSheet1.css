@@ -55,8 +55,8 @@ body {
     border-style: ridge;
     border-width: 5px;
     border-color: #7f0000;
-    width: 300px;
-    height: 600px;
+    width: 80%;
+    height: auto;
 }
 .dfaProjectHead {
     background-color: #14a796; 
