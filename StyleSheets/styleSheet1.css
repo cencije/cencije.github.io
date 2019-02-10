@@ -5,6 +5,13 @@ h1 {
     margin-top: 5pt;
     margin-bottom: 5pt;
 }
+h3 {    
+    color: #ffe400;
+    font-size: 3vw;
+    font-family: Trebuchet MS;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+}
 h2 {
     background-color: #B0E0E6;
     border-top: thick double #7f0000;
